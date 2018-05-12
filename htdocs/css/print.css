@@ -1,0 +1,5 @@
+/*!
+====================================================================================================
+ print.scss / 2017.11.01
+====================================================================================================
+*/.pj-header,.pj-globalNav,.pj-localNav,.pj-footer{visibility:hidden;display:none}.pj-print{display:block}a{color:#000!important;text-decoration:none!important}body{font-size:12pt;line-height:1.4;width:100%!important;visibility:visible}.pj-page__inner{width:100%!important;visibility:visible}html{overflow-y:hidden}.pj-contents{overflow:visible}.pj-main{float:none;margin-top:0}.pj-footer{clear:both}
