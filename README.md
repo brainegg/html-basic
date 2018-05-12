@@ -1,7 +1,7 @@
 
 # HTML Basic Package
 
-##Directory List
+#Directory List
 + htdocs 
     + index.html
     + /img/
