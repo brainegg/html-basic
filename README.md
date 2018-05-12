@@ -1,8 +1,14 @@
 
+# HTML Basic Package
 
-<table>
-<tr><td>test</td><td>test</td><td>test</td></tr>
-<tr><td>test</td><td>test</td><td>test</td></tr>
-<tr><td>test</td><td>test</td><td>test</td></tr>
-<tr><td>test</td><td>test</td><td>test</td></tr>
-</table>
+##Directory List
++ htdocs 
+    + index.html
+    + /img/
+        + logo_site_id.svg
+    + /css/
+        + base.css
+        + project.css
+        + print.css
+    + /js/
+    + /lib/
