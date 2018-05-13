@@ -21,7 +21,7 @@
 
 ### image 
 
-[type]_[description]_[number]_[state].extension(jpg|png|svg)
+[type] _ [description] _ [number] _ [state].extension( jpg | png | svg )
 
 |type|name|description|
 |----|----|-----------|
