@@ -1,6 +1,7 @@
-
 # HTML Basic Package
+
 ### Directory List
+
 + htdocs/ 
     + index.html
     + img/
@@ -15,9 +16,11 @@
         + jquery/
             + jquery-3.3.1.min.js
 
-#Naming
 
-###image 
+# Naming
+
+### image 
+
 [type]_[description]_[number]_[state].extension(jpg|png|svg)
 
 |type|name|description|
@@ -29,7 +32,7 @@
 |btn|button|ボタン|
 |nav|navigation|ナビゲーション|
 
-###Style Sheet
+### Style Sheet
 
 |type|name|description|
 |----|----|-----------|
