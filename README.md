@@ -69,7 +69,7 @@
 |pj|project style|project,cssのサイト固有のスタイル|
 |sc|special content style|スペシャルサイトのスタイル|
 
-####Class 
+#### Class 
  
     [type]-class--modifier(state|size)
     [type]-class@device[Tablet|Sp] 
