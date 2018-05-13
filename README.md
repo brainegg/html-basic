@@ -35,14 +35,14 @@
 <colgroup>
 <col style="width:8%" span="2">
 </colgroup>
-<thead><tr><th colspan=2>name</th><th colspan="2">description</th></tr></thead>
+<thead><tr><th>name</th><th colspan="2">description</th></tr></thead>
 <tbody>
-<tr><td colspan=2>img</td><td>image</td><td>画像</td></tr>
-<tr><td></td><td>ico</td><td>icon</td><td>アイコン</td></tr>
-<tr><td colspan=2>doc</td><td>document</td><td>ドキュメント(pdf,doc,xls)</td></tr>
-<tr><td colspan=2>js</td><td>javascript</td><td>スクリプト</td></tr>
-<tr><td colspan=2>lib</td><td>library</td><td>ライブラリー、プラグイン</td></tr>
-<tr><td colspan=2>css</td><td>style sheet</td><td>スタイルシート</td></tr>
+<tr><td>img</td><td>image</td><td>画像</td></tr>
+<tr><td>ico</td><td>icon</td><td>アイコン</td></tr>
+<tr><td>doc</td><td>document</td><td>ドキュメント(pdf,doc,xls)</td></tr>
+<tr><td>js</td><td>javascript</td><td>スクリプト</td></tr>
+<tr><td>lib</td><td>library</td><td>ライブラリー、プラグイン</td></tr>
+<tr><td>css</td><td>style sheet</td><td>スタイルシート</td></tr>
 </tbody>
 </table>
 
