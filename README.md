@@ -20,8 +20,8 @@
 ## Naming
 
 ### Folder 
-<!--
-|name|description||
+
+|type| |description|
 |----|----|-----------|
 |img|image|画像|
 |doc|document|ドキュメント(pdf,doc,xls)|
@@ -29,8 +29,8 @@
 |js|javascript|スクリプト|
 |lib|library|ライブラリー、プラグイン|
 |css|style sheet|スタイルシート|
--->
 
+<!--
 <table style="width:100%">
 <colgroup>
 <col style="width:8%" span="2">
@@ -44,14 +44,14 @@
 <tr><td>lib</td><td>library</td><td>ライブラリー、プラグイン</td></tr>
 <tr><td>css</td><td>style sheet</td><td>スタイルシート</td></tr>
 </tbody>
-</table>
+</table>-->
 
 
 ### Image 
 
 [type] _ [description] _ [number] _ [state].extension( jpg | png | svg )
 
-|type|description||
+|type| |description|
 |----|----|-----------|
 |logo|logo| ロゴ|
 |ico|icon|アイコン|
@@ -63,7 +63,7 @@
 
 ### Style Sheet
 
-|type|description||
+|type| |description|
 |----|----|-----------|
 |bs|base style|base.cssのユーティリティ、モジュールスタイル|
 |pj|project style|project,cssのサイト固有のスタイル|
