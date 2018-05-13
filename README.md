@@ -26,9 +26,10 @@
 |type|name|description|
 |----|----|-----------|
 |logo|logo| ロゴ|
-|img|image|写真、グラフ、イラスト|
 |ico|icon|アイコン|
+|img|image|写真、グラフ、イラスト|
 |h|heading|見出し|
+|txt|text|文字|
 |btn|button|ボタン|
 |nav|navigation|ナビゲーション|
 
