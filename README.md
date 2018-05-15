@@ -35,7 +35,7 @@
 |css|style sheet|スタイルシート|
 
 <!--
-<table style="width:100%">
+<table width="100%" style="width:100%">
 <colgroup>
 <col style="width:8%" span="2">
 </colgroup>
@@ -101,7 +101,7 @@
 
 ### Utility
 
-<table style="width:100%">
+<table style="width:100%" width="100%">
 <thead>
 <tr> <th>type</th> <th>class</th> <th>description</th> </tr>
 </thead>
