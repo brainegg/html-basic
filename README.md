@@ -32,8 +32,10 @@
 |----|----|-----------|
 |<b>/* Folder */</b>|
 |img|image|画像|
+|img/ico|icon|アイコン|
+|img/bg|background|背景画像|
+|img/nav|navigation|ナビゲーション、ボタン|
 |doc|document|ドキュメント(pdf,doc,xls)|
-|ico|icon|アイコン|
 |js|javascript|スクリプト|
 |lib|library|ライブラリー、プラグイン|
 |css|style sheet|スタイルシート|
@@ -45,7 +47,6 @@
 |h|heading|見出し|
 |txt|text|文字|
 |btn|button|ボタン|
-|nav|navigation|ナビゲーション|
 |<b>/* Style Sheet */</b>|
 |bs|base style|base.cssのユーティリティ、モジュール、コンポーネントスタイル|
 |pj|project style|project,cssのサイト固有のスタイル|
