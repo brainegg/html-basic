@@ -1,7 +1,8 @@
 
----  
- BrainEgg HTML Basic Package  
----  
+<p align="center">
+<img src="https://brainegg.net/img/site_id_brainegg.svg" width="300" height="50" alt="BrainEgg.Net">  
+</p>
+<p align="center"> BrainEgg HTML Basic Package</p>
 
 ## Directory
 
