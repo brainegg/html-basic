@@ -145,7 +145,7 @@
 
 |class|range|description|
 |-----|-----:|-----------|
-|(class)@Tablet-lte| 0 ~ 800| max-width: 667px |
+|(class)@Tablet-lte| 0 ~ 800| max-width: 800px |
 |(class)@Tablet|  668 ~ 800 | min-width: 668px and max-width: 800px |
 |(class)@Sp| 0 ~ 667| max-width: 667px |
 |(class)@SpLand|481 ~ 667| min-width:481 and max-width: 667px|
