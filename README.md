@@ -117,26 +117,27 @@
 | |bs-list--rowGap|bs-list--rowGap_( S, M, L ) 、縦の間隔を調整 |
 | |bs-list--inline|リストを並列表示|
 | |bs-list--custom|リストマークを任意に変更、<br> 使用する場合構成を li > elem{任意} + {text} にする|
-| |bs-list--(etc)|bs-list--( horizon_line, vertical_line ) 、ボーダーを追加 |
+| |bs-list--(opt)|bs-list--( horizon_line, vertical_line ) 、ボーダーを追加 |
 |table|bs-table|テーブル要素をリセット|
 | |bs-table--gap|bs-table--gap_( S, M, L )|
-| |bs-table--(etc)|bs-table--( horizon_line, lattice, zebra, light, dark ) 、ボーダーを追加、 横ラインの背景を交互に着色 、カラーリング|
+| |bs-table--(opt)|bs-table--( horizon_line, lattice, zebra, light, dark ) 、ボーダーを追加、 横ラインの背景を交互に着色 、カラーリング|
 |flex|bs-flex| ul,ol対応 list要素をリセット<br> *ie9* 以下 では 子要素inline-block に変更 、center、 end、 columnのみ対応  |
 | |bs-flex--gap|bs-flex--gap_( S, M, L )|
 | |bs-flex--col *|bs-flex--col_( 1 ~ 12 )|
-| |bs-flex--(etc)|bs-flex--( center, end, between, reverse, column, middle )|
-
+| |bs-flex--(opt)|bs-flex--( center, end, between, reverse, column, middle )|
+|ico|bs-ico|スプライト用にリセット、画像はimg/ico/ico_project.svg を使用
+|ico|bs-ico--(etc)|bs-ico--( S, M, L, type )|
 ### Component
 |type|class|description|
 |-----|-----------|----|
 |figure|bs-figure|  画像等(メディア)とキャプション <br> bs-figure > <br>bs-figure__img +  bs-figure__caption |
 |media|bs-media| 画像等(メディア)とテキスト <br> bs-media > <br>bs-media__side +  bs-media__body  |
 | |bs-media--gap| bs-media--gap_( S, M, L ) side と body の間隔を調整|
-| |bs-media--(etc) *| bs-media--( column, reverse ) 指定のデバイスで垂直配置、上下反転|
+| |bs-media--(opt) *| bs-media--( column, reverse ) 指定のデバイスで垂直配置、上下反転|
 | |bs-media__side| bs-media__side--( left, right ) 左、右に配置 |
 | |bs-media__body| bs-media__body--( melt ) sideに回り込み |
 |panel|bs-panel| 装飾パネル <br> bs-panel > <br>bs-panel__header + bs-panel__body|
-| |bs-panel--(etc)| bs-panel--( round, light, gray, dark ) 丸角、カラーリング|
+| |bs-panel--(opt)| bs-panel--( round, light, gray, dark ) 丸角、カラーリング|
 | |bs-panel__header| bs-panel__header--( separator ) header と body の間にボーダーを追加 |
 
 ### Device Break Point
