@@ -10,6 +10,8 @@
     + index.html
     + img/
         + logo_site_id.svg
+        + ico/
+    		+ ico_project.svg
     + css/
         + base.css
         + project.css
@@ -20,6 +22,7 @@
         + jquery/
             + jquery-3.3.1.min.js
 
+---  
 
 ## Naming
 
