@@ -1,4 +1,6 @@
 
+<link rel="stylesheet" href="css/base.css" media="all"/>
+
 <p align="center">
 <img src="https://brainegg.net/img/site_id_brainegg_b2.svg" width="360" height="66" alt="BrainEgg.Net">  
 </p>
