@@ -46,7 +46,7 @@
 |pj|project style|project,cssのサイト固有のスタイル|
 |sc|special content style|スペシャルサイトのスタイル|
 
-#### image file Example
+#### Image file Example
 	[type] _ [description] _ [number] _ [state].extension( jpg | png | svg )
 	
 #### Style Class Example
