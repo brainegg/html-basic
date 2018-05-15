@@ -1,6 +1,4 @@
-<style>
-table{ width:100%;}
-</style>
+
 
 # HTML Basic Package
 
