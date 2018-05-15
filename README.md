@@ -99,29 +99,9 @@
 
 <b>*</b> はデバイス指定あり 下記 Device Break point 参照 
 
-### Utility
-
-<table>
-<thead width="100%">
-<tr> <th>type</th> <th>class</th> <th>description</th> </tr>
-</thead>
-<tbody width="100%">
-<tr><td>font size</td> <td>bs-font *</td> <td>bs-font_( XS, S, M, L, XL )</td> </tr>
-<tr><td>text</td> <td>bs-text *</td> <td>bs-text_( right, center, left, bold. underline )、 right, center, leftのみデバイス対応</td></tr>
-<tr> <td>color</td> <td>bs-color</td> <td>bs-color_( red, blue, green, yellow )</td> </tr>
-<tr> <td>width</td> <td>bs-width *</td> <td>bs-width_(1-1 ~ 10-10) 1of1 ~ 10of10</td> </tr>
-<tr> <td>hr</td> <td>bs-hr</td> <td>bs-hr_( dot, dosh, bevel, emboss, double )</td> </tr>
-<tr> <td>float</td> <td>bs-float</td> <td>bs-float_( left, right )</td> </tr>
-<tr> <td>overflow</td> <td>bs-overflow</td> <td>bs-overflow_( auto, hidden, scroll, scrollX, scrollY )</td> </tr>
-<tr> <td>nowrap</td> <td>bs-nowrap</td> <td>bs-nowrap : white-space: nowrap</td> </tr>
-<tr> <td>clear</td> <td>bs-clear</td> <td>bs-clear : clear : both</td> </tr>
-<tr> <td>display</td> <td>bs-show *</td> <td>bs-show@( Desk, Tablet, Sp, SpLand, SpPort ) 指定のデバイスサイズのみ表示</td> </tr>
-<tr> <td></td> <td>bs-hide *</td> <td>bs-hide@( Tablet, Tablet-lte, Sp, SpLand, SpPort ) 指定のデバイスサイズのみ非表示</td> </tr>
-</tbody></table>
-
-<!--
 |type|class|description|
 |-----|-----------|----|
+|<b><font color="#AAA">Utility</font></b>| | |
 |font size|bs-font *| bs-font_( XS, S, M, L, XL )  |
 |text|bs-text *| bs-text_( right, center, left, bold. underline )、 right, center, leftのみデバイス対応 |
 |color|bs-color|bs-color_( red, blue, green, yellow ) |
@@ -133,10 +113,7 @@
 |clear|bs-clear|bs-clear : clear : both |
 |display|bs-show *|bs-show@( Desk, Tablet, Sp, SpLand, SpPort ) 指定のデバイスサイズのみ表示|
 | |bs-hide *|bs-hide@( Tablet, Tablet-lte, Sp, SpLand, SpPort ) 指定のデバイスサイズのみ非表示| 
--->
-### Module
-|type|class|description|
-|-----|-----------|----|
+|<b><font color="#AAA">Module</font></b>| | |
 |list ( ul, ol )|bs-list|リスト要素をリセット|
 | |bs-list--gap|bs-list--gap_( S, M, L ) 、custom時の横の間隔を調整|
 | |bs-list--rowGap|bs-list--rowGap_( S, M, L ) 、縦の間隔を調整 |
@@ -151,11 +128,8 @@
 | |bs-flex--col *|bs-flex--col_( 1 ~ 12 )|
 | |bs-flex--(opt)|bs-flex--( center, end, between, reverse, column, middle )|
 |ico|bs-ico|スプライト用にリセット、画像はimg/ico/ico_project.svg を使用
-| |bs-ico--(opt)|bs-ico--( M, L, type ) サイズ指定( デフォルト16x16,M:32ｘ32,L:64ｘ64)、アイコンタイプ指定詳細は別途記載|
-
-### Component
-|type|class|description|
-|-----|-----------|----|
+| |bs-ico--(opt)|bs-ico--( M, L, type ) サイズ指定( デフォルト16x16,M:32ｘ32,L:64ｘ64)、アイコンタイプ指定詳細は別途記載||
+|<b><font color="#AAA">Component</font></b>| | |
 |figure|bs-figure|  画像等(メディア)とキャプション <br> bs-figure > <br>bs-figure__img +  bs-figure__caption |
 |media|bs-media| 画像等(メディア)とテキスト <br> bs-media > <br>bs-media__side +  bs-media__body  |
 | |bs-media--gap| bs-media--gap_( S, M, L ) side と body の間隔を調整|
