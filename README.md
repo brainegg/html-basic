@@ -1,3 +1,4 @@
+<style>table{ width:100%;}</style>
 # HTML Basic Package
 
 ## Directory
@@ -96,7 +97,7 @@
 |type|class|description|
 |-----|-----------|----|
 |font size|bs-font *| bs-font_( XS, S, M, L, XL )  |
-|text align & weight & decoration|bs-text *| bs-text_( right, center, left, bold. underline ) |
+|text align & <br>weight & <br>decoration|bs-text *| bs-text_( right, center, left, bold. underline ) |
 |color|bs-color|bs-color_( red, blue, green, yellow ) |
 |width|bs-width *|bs-width_(1-1 ~ 10-10) 1of1 ~ 10of10 |
 |hr|bs-hr|bs-hr_( dot, dosh, bevel, emboss, double )|
@@ -137,7 +138,7 @@
 | |bs-panel--(etc)| bs-panel--( round, light, gray, dark ) 丸角、カラーリング|
 | |bs-panel__header| bs-panel__header--( separator ) header と body の間にボーダーを追加 |
 
-### Device Break point
+### Device Break Point
 	ex.) bs-font@Tablet_S 、 bs-flex@Sp--col_1
 
 |class|range|description|
