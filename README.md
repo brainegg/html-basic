@@ -100,7 +100,7 @@ table{ width:100%;}
 |type|class|description|
 |-----|-----------|----|
 |font size|bs-font *| bs-font_( XS, S, M, L, XL )  |
-|text align & <br>weight & <br>decoration|bs-text *| bs-text_( right, center, left, bold. underline ) |
+|text|bs-text *| bs-text_( right, center, left, bold. underline )、 right, center, leftのみデバイス対応 |
 |color|bs-color|bs-color_( red, blue, green, yellow ) |
 |width|bs-width *|bs-width_(1-1 ~ 10-10) 1of1 ~ 10of10 |
 |hr|bs-hr|bs-hr_( dot, dosh, bevel, emboss, double )|
