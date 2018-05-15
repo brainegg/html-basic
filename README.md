@@ -23,40 +23,16 @@
 
 ## Naming
 
-### Folder 
-
 |type| |description|
 |----|----|-----------|
+|<b>/* Folder */</b>|
 |img|image|画像|
 |doc|document|ドキュメント(pdf,doc,xls)|
 |ico|icon|アイコン|
 |js|javascript|スクリプト|
 |lib|library|ライブラリー、プラグイン|
 |css|style sheet|スタイルシート|
-
-<!--
-<table width="100%" style="width:100%">
-<colgroup>
-<col style="width:8%" span="2">
-</colgroup>
-<thead><tr><th>name</th><th colspan="2">description</th></tr></thead>
-<tbody>
-<tr><td>img</td><td>image</td><td>画像</td></tr>
-<tr><td>ico</td><td>icon</td><td>アイコン</td></tr>
-<tr><td>doc</td><td>document</td><td>ドキュメント(pdf,doc,xls)</td></tr>
-<tr><td>js</td><td>javascript</td><td>スクリプト</td></tr>
-<tr><td>lib</td><td>library</td><td>ライブラリー、プラグイン</td></tr>
-<tr><td>css</td><td>style sheet</td><td>スタイルシート</td></tr>
-</tbody>
-</table>-->
-
-
-### Image 
-
-[type] _ [description] _ [number] _ [state].extension( jpg | png | svg )
-
-|type| |description|
-|----|----|-----------|
+|<b>/* Image */</b>|
 |logo|logo| ロゴ|
 |ico|icon|アイコン|
 |img|image|写真、グラフ、イラスト|
@@ -65,16 +41,15 @@
 |txt|text|文字|
 |btn|button|ボタン|
 |nav|navigation|ナビゲーション|
-
-### Style Sheet
-
-|type| |description|
-|----|----|-----------|
+|<b>/* Style Sheet */</b>|
 |bs|base style|base.cssのユーティリティ、モジュール、コンポーネントスタイル|
 |pj|project style|project,cssのサイト固有のスタイル|
 |sc|special content style|スペシャルサイトのスタイル|
 
-#### Class 
+#### image file Example
+	[type] _ [description] _ [number] _ [state].extension( jpg | png | svg )
+	
+#### Style Class Example
  
     [type]-class--modifier(state|size)
     [type]-class@device[Tablet|Sp] 
@@ -101,7 +76,7 @@
 
 |type|class|description|
 |-----|-----------|----|
-|<b><font color="#AAA">Utility</font></b>| | |
+|<b>/* Utility */</b>| | |
 |font size|bs-font *| bs-font_( XS, S, M, L, XL )  |
 |text|bs-text *| bs-text_( right, center, left, bold. underline )、 right, center, leftのみデバイス対応 |
 |color|bs-color|bs-color_( red, blue, green, yellow ) |
@@ -113,7 +88,7 @@
 |clear|bs-clear|bs-clear : clear : both |
 |display|bs-show *|bs-show@( Desk, Tablet, Sp, SpLand, SpPort ) 指定のデバイスサイズのみ表示|
 | |bs-hide *|bs-hide@( Tablet, Tablet-lte, Sp, SpLand, SpPort ) 指定のデバイスサイズのみ非表示| 
-|<b><font color="#AAA">Module</font></b>| | |
+|<b>/* Module */</b>| | |
 |list ( ul, ol )|bs-list|リスト要素をリセット|
 | |bs-list--gap|bs-list--gap_( S, M, L ) 、custom時の横の間隔を調整|
 | |bs-list--rowGap|bs-list--rowGap_( S, M, L ) 、縦の間隔を調整 |
@@ -129,7 +104,7 @@
 | |bs-flex--(opt)|bs-flex--( center, end, between, reverse, column, middle )|
 |ico|bs-ico|スプライト用にリセット、画像はimg/ico/ico_project.svg を使用
 | |bs-ico--(opt)|bs-ico--( M, L, type ) サイズ指定( デフォルト16x16,M:32ｘ32,L:64ｘ64)、アイコンタイプ指定詳細は別途記載||
-|<b><font color="#AAA">Component</font></b>| | |
+|<b>/* Component */</b>| | |
 |figure|bs-figure|  画像等(メディア)とキャプション <br> bs-figure > <br>bs-figure__img +  bs-figure__caption |
 |media|bs-media| 画像等(メディア)とテキスト <br> bs-media > <br>bs-media__side +  bs-media__body  |
 | |bs-media--gap| bs-media--gap_( S, M, L ) side と body の間隔を調整|
