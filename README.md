@@ -102,8 +102,8 @@
 | |bs-flex--gap|bs-flex--gap_( S, M, L )|
 | |bs-flex--col *|bs-flex--col_( 1 ~ 12 )|
 | |bs-flex--(opt)|bs-flex--( center, end, between, reverse, column, middle )|
-|ico|bs-ico|スプライト用にリセット、画像はimg/ico/ico_project.svg を使用
-| |bs-ico--(opt)|bs-ico--( M, L, type ) サイズ指定( デフォルト16x16,M:32ｘ32,L:64ｘ64)、アイコンタイプ指定詳細は別途記載||
+|ico|bs-ico|スプライト用にリセット、画像はimg/ico/ico_project.svg を使用|
+| |bs-ico--(opt)|bs-ico--( M, L, type ) <br>サイズ指定( デフォルト16x16,M:32ｘ32,L:64ｘ64)、<br>アイコンタイプ指定詳細は別途記載||
 |<b>/* Component */</b>| | |
 |figure|bs-figure|  画像等(メディア)とキャプション <br> bs-figure > <br>bs-figure__img +  bs-figure__caption |
 |media|bs-media| 画像等(メディア)とテキスト <br> bs-media > <br>bs-media__side +  bs-media__body  |
