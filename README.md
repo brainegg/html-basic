@@ -98,6 +98,26 @@
 <b>*</b> はデバイス指定あり 下記 Device Break point 参照 
 
 ### Utility
+
+<table style="width:100%">
+<thead>
+<tr> <th>type</th> <th>class</th> <th>description</th> </tr>
+</thead>
+<tbody>
+<tr><td>font size</td> <td>bs-font *</td> <td>bs-font_( XS, S, M, L, XL )</td> </tr>
+<tr><td>text</td> <td>bs-text *</td> <td>bs-text_( right, center, left, bold. underline )、 right, center, leftのみデバイス対応</td></tr>
+<tr> <td>color</td> <td>bs-color</td> <td>bs-color_( red, blue, green, yellow )</td> </tr>
+<tr> <td>width</td> <td>bs-width *</td> <td>bs-width_(1-1 ~ 10-10) 1of1 ~ 10of10</td> </tr>
+<tr> <td>hr</td> <td>bs-hr</td> <td>bs-hr_( dot, dosh, bevel, emboss, double )</td> </tr>
+<tr> <td>float</td> <td>bs-float</td> <td>bs-float_( left, right )</td> </tr>
+<tr> <td>overflow</td> <td>bs-overflow</td> <td>bs-overflow_( auto, hidden, scroll, scrollX, scrollY )</td> </tr>
+<tr> <td>nowrap</td> <td>bs-nowrap</td> <td>bs-nowrap : white-space: nowrap</td> </tr>
+<tr> <td>clear</td> <td>bs-clear</td> <td>bs-clear : clear : both</td> </tr>
+<tr> <td>display</td> <td>bs-show *</td> <td>bs-show@( Desk, Tablet, Sp, SpLand, SpPort ) 指定のデバイスサイズのみ表示</td> </tr>
+<tr> <td></td> <td>bs-hide *</td> <td>bs-hide@( Tablet, Tablet-lte, Sp, SpLand, SpPort ) 指定のデバイスサイズのみ非表示</td> </tr>
+</tbody></table>
+
+<!--
 |type|class|description|
 |-----|-----------|----|
 |font size|bs-font *| bs-font_( XS, S, M, L, XL )  |
@@ -111,7 +131,7 @@
 |clear|bs-clear|bs-clear : clear : both |
 |display|bs-show *|bs-show@( Desk, Tablet, Sp, SpLand, SpPort ) 指定のデバイスサイズのみ表示|
 | |bs-hide *|bs-hide@( Tablet, Tablet-lte, Sp, SpLand, SpPort ) 指定のデバイスサイズのみ非表示| 
-
+-->
 ### Module
 |type|class|description|
 |-----|-----------|----|
