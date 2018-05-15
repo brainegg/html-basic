@@ -82,6 +82,9 @@
     [type]-class__footer
     [type]-class__title
     etc.
+    
+  
+---  
 
 ## Base Style Class ( base.css )
 
@@ -127,6 +130,7 @@
 | |bs-flex--(opt)|bs-flex--( center, end, between, reverse, column, middle )|
 |ico|bs-ico|スプライト用にリセット、画像はimg/ico/ico_project.svg を使用
 | |bs-ico--(opt)|bs-ico--( M, L, type ) サイズ指定( デフォルト16x16,M:32ｘ32,L:64ｘ64)、アイコンタイプ指定詳細は別途記載|
+
 ### Component
 |type|class|description|
 |-----|-----------|----|
