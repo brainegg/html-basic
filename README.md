@@ -78,7 +78,7 @@
 |-----|-----------|----|
 |<b>/* Utility */</b>| | |
 |font size|bs-font *| bs-font_( XS, S, M, L, XL )  |
-|text|bs-text *| bs-text_( right, center, left, bold. underline )、 right, center, leftのみデバイス対応 |
+|text|bs-text *| bs-text_( right, center, left, bold. underline )、 <br>right, center, leftのみデバイス対応 |
 |color|bs-color|bs-color_( red, blue, green, yellow ) |
 |width|bs-width *|bs-width_(1-1 ~ 10-10) 1of1 ~ 10of10 |
 |hr|bs-hr|bs-hr_( dot, dosh, bevel, emboss, double )|
@@ -98,7 +98,7 @@
 |table|bs-table|テーブル要素をリセット|
 | |bs-table--gap|bs-table--gap_( S, M, L )|
 | |bs-table--(opt)|bs-table--( horizon_line, lattice, zebra, light, dark ) 、<br>ボーダーを追加、 横ラインの背景を交互に着色 、カラーリング|
-|flex|bs-flex| ul,ol対応 list要素をリセット<br> *ie9* 以下 では 子要素inline-block に変更 、center、 end、 columnのみ対応  |
+|flex|bs-flex| ul,ol対応 list要素をリセット<br> *ie9* 以下 では 子要素inline-block に変更 、<br>center、 end、 columnのみ対応  |
 | |bs-flex--gap|bs-flex--gap_( S, M, L )|
 | |bs-flex--col *|bs-flex--col_( 1 ~ 12 )|
 | |bs-flex--(opt)|bs-flex--( center, end, between, reverse, column, middle )|
@@ -108,12 +108,12 @@
 |figure|bs-figure|  画像等(メディア)とキャプション <br> bs-figure > <br>bs-figure__img +  bs-figure__caption |
 |media|bs-media| 画像等(メディア)とテキスト <br> bs-media > <br>bs-media__side +  bs-media__body  |
 | |bs-media--gap| bs-media--gap_( S, M, L ) side と body の間隔を調整|
-| |bs-media--(opt) *| bs-media--( column, reverse ) 指定のデバイスで垂直配置、上下反転|
+| |bs-media--(opt) *| bs-media--( column, reverse ) <br>指定のデバイスで垂直配置、上下反転|
 | |bs-media__side| bs-media__side--( left, right ) 左、右に配置 |
 | |bs-media__body| bs-media__body--( melt ) sideに回り込み |
 |panel|bs-panel| 装飾パネル <br> bs-panel > <br>bs-panel__header + bs-panel__body|
 | |bs-panel--(opt)| bs-panel--( round, light, gray, dark ) 丸角、カラーリング|
-| |bs-panel__header| bs-panel__header--( separator ) header と body の間にボーダーを追加 |
+| |bs-panel__header| bs-panel__header--( separator ) <br>header と body の間にボーダーを追加 |
 
 ### Device Break Point
 	ex.) bs-font@Tablet_S 、 bs-flex@Sp--col_1
