@@ -102,10 +102,10 @@
 ### Utility
 
 <table>
-<thead width="100%">
+<thead width="100%" style="display:table">
 <tr> <th>type</th> <th>class</th> <th>description</th> </tr>
 </thead>
-<tbody width="100%">
+<tbody width="100%" style="display:table">
 <tr><td>font size</td> <td>bs-font *</td> <td>bs-font_( XS, S, M, L, XL )</td> </tr>
 <tr><td>text</td> <td>bs-text *</td> <td>bs-text_( right, center, left, bold. underline )、 right, center, leftのみデバイス対応</td></tr>
 <tr> <td>color</td> <td>bs-color</td> <td>bs-color_( red, blue, green, yellow )</td> </tr>
