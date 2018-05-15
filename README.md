@@ -86,8 +86,8 @@
 |overflow|bs-overflow|bs-overflow_( auto, hidden, scroll, scrollX, scrollY )|
 |nowrap|bs-nowrap|bs-nowrap : white-space: nowrap|
 |clear|bs-clear|bs-clear : clear : both |
-|display|bs-show *|bs-show@( Desk, Tablet, Sp, SpLand, SpPort ) 指定のデバイスサイズのみ表示|
-| |bs-hide *|bs-hide@( Tablet, Tablet-lte, Sp, SpLand, SpPort ) 指定のデバイスサイズのみ非表示| 
+|display|bs-show *|bs-show@( Desk, Tablet, Sp, SpLand, SpPort ) <br>指定のデバイスサイズのみ表示|
+| |bs-hide *|bs-hide@( Tablet, Tablet-lte, Sp, SpLand, SpPort ) <br>指定のデバイスサイズのみ非表示| 
 |<b>/* Module */</b>| | |
 |list ( ul, ol )|bs-list|リスト要素をリセット|
 | |bs-list--gap|bs-list--gap_( S, M, L ) 、custom時の横の間隔を調整|
@@ -97,7 +97,7 @@
 | |bs-list--(opt)|bs-list--( horizon_line, vertical_line ) 、ボーダーを追加 |
 |table|bs-table|テーブル要素をリセット|
 | |bs-table--gap|bs-table--gap_( S, M, L )|
-| |bs-table--(opt)|bs-table--( horizon_line, lattice, zebra, light, dark ) 、ボーダーを追加、 横ラインの背景を交互に着色 、カラーリング|
+| |bs-table--(opt)|bs-table--( horizon_line, lattice, zebra, light, dark ) 、<br>ボーダーを追加、 横ラインの背景を交互に着色 、カラーリング|
 |flex|bs-flex| ul,ol対応 list要素をリセット<br> *ie9* 以下 では 子要素inline-block に変更 、center、 end、 columnのみ対応  |
 | |bs-flex--gap|bs-flex--gap_( S, M, L )|
 | |bs-flex--col *|bs-flex--col_( 1 ~ 12 )|
