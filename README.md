@@ -43,6 +43,7 @@
 |logo|logo| ロゴ|
 |ico|icon|アイコン|
 |img|image|写真、グラフ、イラスト|
+|bnr|banner|バナー|
 |bg|background|背景画像|
 |h|heading|見出し|
 |txt|text|文字|
