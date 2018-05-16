@@ -104,7 +104,8 @@
 | |bs-list--(opt)|bs-list--( horizon_line, vertical_line ) 、ボーダーを追加 |
 |table|bs-table|テーブル要素をリセット|
 | |bs-table--gap|bs-table--gap_( S, M, L )|
-| |bs-table--(opt)|bs-table--( horizon_line, lattice, zebra, light, dark ) 、<br>ボーダーを追加、 横ラインの背景を交互に着色 、カラーリング|
+| |bs-table--(theme)|bs-table--( light, dark  )、カラーリング|
+| |bs-table--(opt)|bs-table--( horizon_line, lattice, zebra ) 、<br>ボーダーを追加、 横ラインの背景を交互に着色 |
 |flex|bs-flex| ul,ol対応 list要素をリセット<br> *ie9* 以下 では 子要素inline-block に変更 、<br>center、 end、 columnのみ対応  |
 | |bs-flex--gap|bs-flex--gap_( S, M, L )|
 | |bs-flex--col *|bs-flex--col_( 1 ~ 12 )|
@@ -119,7 +120,8 @@
 | |bs-media__side| bs-media__side--( left, right ) 左、右に配置 |
 | |bs-media__body| bs-media__body--( melt ) sideに回り込み |
 |panel|bs-panel| 装飾パネル <br> bs-panel > <br>bs-panel__header + bs-panel__body|
-| |bs-panel--(opt)| bs-panel--( round, light, gray, dark ) 丸角、カラーリング|
+| |bs-panel--(theme)| bs-panel--( light, gray, dark ) カラーリング|
+| |bs-panel--(opt)| bs-panel--( round ) 丸角|
 | |bs-panel__header| bs-panel__header--( separator ) <br>header と body の間にボーダーを追加 |
 
 ### Device Break Point
