@@ -59,13 +59,17 @@
 	
 #### Style Class Example
  
-    [type]-class--modifier(state|size)
-    [type]-class@device[Tablet|Sp] 
-    [type]-class__inner
-    [type]-class__header 
-    [type]-class__body
-    [type]-class__footer
-    [type]-class__title
+    [type]-[class]--modifier(state|size)
+    [type]-[class]@device[Tablet|Sp|SpLand|SpPort] 
+    [type]-[class]__inner
+    [type]-[class]__header 
+    [type]-[class]__body
+    [type]-[class]__footer
+    [type]-[class]__cell
+    [type]-[class]__title
+    [type]-[class]__list
+    [type]-[class]__item
+    [type]-[class]__btn
     etc.
     
   
