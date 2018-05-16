@@ -44,7 +44,7 @@
 |ico|icon|アイコン|
 |img|image|写真、グラフ、イラスト|
 |bnr|banner|バナー|
-|thumb|thumbnail|サムネイル|
+|thmb|thumbnail|サムネイル|
 |bg|background|背景画像|
 |h|heading|見出し|
 |txt|text|文字|
