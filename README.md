@@ -60,22 +60,13 @@
 #### Style Class Example
  
     [type]-[class]--modifier(state|size)
-    [type]-[class]@device[Tablet|Sp|SpLand|SpPort] 
-    [type]-[class]__inner
-    [type]-[class]__header 
-    [type]-[class]__body
-    [type]-[class]__footer
-    [type]-[class]__cell
-    [type]-[class]__title
-    [type]-[class]__list
-    [type]-[class]__item
-    [type]-[class]__btn
+    [type]-[class]@( Tablet, Sp, SpLand, SpPort ) 
+    [type]-[class]__( inner, header, body, footer, cell, title, list, item, btn )
     etc.
-    
   
 ---  
 
-## Base Style Class ( base.css )
+## Base Style Class ( base.css | prefix : bs-  )
 
 + 基本CSSのプロパティ名に極力準拠
 + サイズは大文字で XS, S, M, L, XL
@@ -139,3 +130,62 @@
 |(class)@Sp| 0 ~ 667| max-width: 667px |
 |(class)@SpLand|481 ~ 667| min-width:481 and max-width: 667px|
 |(class)@SpPort|0 ~ 480| max-width: 480px /
+    
+  
+---  
+
+## Project Style Class ( project.css, prefix : pj- )
+
+project.cssは制作するページによって要素が異なるので
+『 pj- 』を付ける以外は厳格なルールはありません。  
+決まった要素には予め用意してあるのでそれを使うほうが好ましい程度です。
+
+|type|class|description|
+|-----|-----------|----|
+|page|pj-page|ページ全体|
+| |pj-page__inner|ページ幅|
+| |pj-page__spencer|pj-page__spencer_( S, M, L ) 縦の間隔|
+|area|pj-header|ページヘッダー|
+| |pj-content|ページコンテンツ|
+| |pj-main|メインコンテンツ|
+| |pj-second|セカンドコンテンツ|
+| |pj-footer|ページフッター|
+| |pj-siteID|サイト識別( site identification )、サイトロゴ|
+| |pj-copyright|コピーライト|
+| |pj-article|記事|
+| |pj-section|章、節|
+|navigation|pj-globalNav|グローバルナビゲーション|
+| |pj-localNav|ローカルナビゲーション|
+| |pj-footerNav|フッターナビゲーション|
+| |pj-siteMapNav|サイトマップナビゲーション|
+| |pj-assistNav|アシストナビゲーション|
+| |pj-pagePathNav|ページパスナビゲーション(パンくずナビ)|
+| |pj-toPageTop|ページ先頭へのボタンまたはリンク|
+
+
+#### Component Style Class Example
+
+##### Area
+
+	div.pj-[area]
+		div.pj-[area]__innder *
+			div.pj-[area]__header
+				h2.pj-[area]__title
+			div.pj-[area]__body
+			div.pj-[area]__footer
+
+<b>*</b> はデザインによって省略します。 
+
+##### Navigation
+
+	nav.pj-[nav]
+		div.pj-[nav]__innder *
+			div.pj-[nav]__header *
+				h2.pj-[nav]__title
+			ul.pj-[nav]__list
+				li.pj-[nav]__item
+					a.pj-[nav]__btn
+						span.pj-[nav]__name
+    
+<b>*</b> はデザインによって省略します。 
+    
