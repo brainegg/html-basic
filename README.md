@@ -72,7 +72,7 @@
 + サイズは大文字で XS, S, M, L, XL
 + デバイス指定は、@Tablet, @Sp, @SpLand, @SpPort
 + normalize.8.00をバンドル
-+ マージン、パッティング等はは多用しすぎるとデザインルールが崩れるので含まない。<br>間隔をあけるものはproject.cssに記述して3～5パターンに抑えて固定された数値表記のクラスを作らないようにする。
++ マージン、パッティング等はは多用しすぎるとデザインルールが崩れるので含まない。<br>間隔をあけるものは project.css に記述して3～5パターンに抑えて固定された数値表記のクラスを作らないようにする。
 
 
 <b>*</b> はデバイス指定あり 下記 Device Break point 参照 
@@ -136,9 +136,14 @@
 
 ## Project Style Class ( project.css, prefix : pj- )
 
-project.cssは制作するページによって要素が異なるので
-『 pj- 』を付ける以外は厳格なルールはありません。  
-決まった要素には予め用意してあるのでそれを使うほうが好ましい程度です。
++ 制作するサイト全体で使うスタイルが対象。  
++ project.cssは制作するページによって要素が異なるため
+『 pj- 』 を付ける以外は厳格なルールなし  
++ 決まった要素には予め用意してあるのでそれを使うほうが好ましい程度。  
+  
+サイト内に特設、ランディングページ等で全く異なるデザインのページを作る場合は  
+スタイルシートを分けて
+ 『 sc- ( special content ) 』  『 lp- ( landing page ) 』 等のプレフィックスを付けて管理する。
 
 |type|class|description|
 |-----|-----------|----|
@@ -165,6 +170,28 @@ project.cssは制作するページによって要素が異なるので
 
 #### Component Style Class Example
 
+<b>*</b> はデザインによって省略します。 
+
+##### Page
+	
+	div.pj-page
+		header.pj-header
+			div.pj-page__inner
+				h1.pj-siteID
+		nav.pj-globalNav 
+		nav.pj-pagePathNav
+		div.pj-content
+			main.pj-main
+				div.pj-page__inner
+					section.pj-page__spencer_M
+						:
+			div.pj-second
+		nav.pj-footerNav 
+		footer.pj-footer
+			div.pj-page__inner
+				small.pj-copyright
+
+
 ##### Area
 
 	div.pj-[area]
@@ -174,7 +201,6 @@ project.cssは制作するページによって要素が異なるので
 			div.pj-[area]__body
 			div.pj-[area]__footer
 
-<b>*</b> はデザインによって省略します。 
 
 ##### Navigation
 
@@ -186,6 +212,4 @@ project.cssは制作するページによって要素が異なるので
 				li.pj-[nav]__item
 					a.pj-[nav]__btn
 						span.pj-[nav]__name
-    
-<b>*</b> はデザインによって省略します。 
     
