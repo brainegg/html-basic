@@ -103,7 +103,7 @@
 |<b>/* Module */</b>| | |
 |list ( ul, ol )|bs-list|リスト要素をリセット|
 | |bs-list--gap|bs-list--gap_( S, M, L ) 、custom時の横の間隔を調整|
-| |bs-list--rowGap|bs-list--rowGap_( S, M, L ) 、縦の間隔を調整 |
+| |bs-list--rowgap|bs-list--rowgap_( S, M, L ) 、縦の間隔を調整 |
 | |bs-list--inline|リストを並列表示|
 | |bs-list--custom|リストマークを任意に変更、<br> 使用する場合構成を li > elem{任意} + {text} にする|
 | |bs-list--(opt)|bs-list--( horizon_line, vertical_line ) 、ボーダーを追加 |
