@@ -97,7 +97,7 @@
 | |bs-list--rowgap|bs-list--rowgap_( S, M, L ) 、縦の間隔を調整 |
 | |bs-list--inline|リストを並列表示|
 | |bs-list--custom|リストマークを任意に変更、<br> 使用する場合構成を li > elem{任意} + {text} にする|
-| |bs-list--(opt)|bs-list--( horizon_line, vertical_line, center, right ) 、ボーダーを追加、custom時の中央、右寄せ |
+| |bs-list--(opt)|bs-list--( horizon_line, vertical_line, center, right ) 、<br>ボーダーを追加、custom時の中央、右寄せ |
 |table|bs-table|テーブル要素をリセット|
 | |bs-table--gap|bs-table--gap_( S, M, L )|
 | |bs-table--(theme)|bs-table--( light, dark  )、カラーリング|
