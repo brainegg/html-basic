@@ -172,9 +172,9 @@
 
 <b>*</b> はデザインによって省略します。 
 
-##### Page
+##### basic
 	
-	div.pj-page
+	div#page.pj-page
 		header.pj-header
 			div.pj-page__inner
 				h1.pj-siteID
@@ -186,11 +186,13 @@
 					section.pj-page__spencer_M
 						:
 			div.pj-second
+		div.pj-toPageTop 
 		nav.pj-footerNav 
 		footer.pj-footer
 			div.pj-page__inner
 				small.pj-copyright
 
+###### emmet
 
 ##### Area
 
