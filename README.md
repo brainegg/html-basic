@@ -215,6 +215,12 @@
     
 
 ## emmet
+#### flex 
+	.bs-flex.bs-flex--gap_M.bs-flex--col_3>div*3
+#### media + figure
+	.bs-media>(.bs-media__side>figure.bs-figure>img+figcaption.bs-figure__caption{xxx})+.bs-media__body{xxx}
+#### section
+	.pj-section>(.pj-section__header>h2.pj-section__title{xxx})+.pj-section__body{xxx}
 #### base layout
 	header.pj-header+(.pj-contents>main.pj-main+.pj-second)+footer.pj-footer
 #### global navigation
