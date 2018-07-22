@@ -196,8 +196,6 @@
 			div.pj-page__inner
 				small.pj-copyright
 
-###### emmet
-
 ##### Area
 
 	div.pj-[area]
@@ -219,3 +217,19 @@
 					a.pj-[nav]__btn
 						span.pj-[nav]__name
     
+
+## emmet
+#### flex 
+	.bs-flex.bs-flex--gap_M.bs-flex--col_3>div*3
+#### media + figure
+	.bs-media>(.bs-media__side>figure.bs-figure>img+figcaption.bs-figure__caption{xxx})+.bs-media__body{xxx}
+#### section
+	.pj-section>(.pj-section__header>h2.pj-section__title{xxx})+.pj-section__body{xxx}
+#### base layout
+	header.pj-header+(.pj-contents>main.pj-main+.pj-second)+footer.pj-footer
+#### global navigation
+	nav.pj-globalNav>.pj-globalNav__header+.pj-globalNav__body>ul.pj-globalNav__list>li.pj-globalNav__item*5>a.pj-globalNav__btn{name}
+#### page path navigation (breadcrumb)
+	.pj-pagePathNav>.pj-pagePathNav__list[itemtype="http://schema.org/BreadcrumbList"itemscope]>(.pj-pagePathNav__item[itemtype="http://schema.org/ListItem"itemprop="itemListElement"itemscope]>(a.pj-pagePathNav__btn[itemprop="item"]>span.pj-pagePathNav__name[itemprop="name"]{name})+meta[itemprop="position"content="$"]^span.pj-pagePathNav__arrow{&gt;})*2+.pj-pagePathNav__item.current[itemtype="http://schema.org/ListItem"itemprop="itemListElement"itemscope]>(em.pj-pagePathNav__btn[itemprop="item"]>span.pj-pagePathNav__name[itemprop="name"]{name})+meta[itemprop="position"content="$@3"]
+
+
