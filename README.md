@@ -125,12 +125,16 @@
 
 |class|range|description|
 |-----|-----:|-----------|
-|(class)@Tablet-lte| 0 ~ 800| max-width: 800px |
+|(class)@desk-lt| 0 ~ 800| max-width: 800px |
+|(class)@Tablet-gt|  801 ~  | min-width: 801px |
 |(class)@Tablet|  668 ~ 800 | min-width: 668px and max-width: 800px |
+|(class)@Sp-gt| 668 ~ | min-width: 668px |
 |(class)@Sp| 0 ~ 667| max-width: 667px |
 |(class)@SpLand|481 ~ 667| min-width:481 and max-width: 667px|
+|(class)@SpPort-gt| 481 ~ | min-width: 481px /
 |(class)@SpPort|0 ~ 480| max-width: 480px /
     
+※モジュール、コンポーネントによって用意されているブレークポイントが異なります。(検討中：2018.07.22)
   
 ---  
 
