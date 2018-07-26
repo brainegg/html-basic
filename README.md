@@ -125,7 +125,7 @@
 
 |class|range|description|
 |-----|-----:|-----------|
-|(class)@desk-lt| 0 ~ 800| max-width: 800px |
+|(class)@Desk-lt| 0 ~ 800| max-width: 800px |
 |(class)@Tablet-gt|  801 ~  | min-width: 801px |
 |(class)@Tablet|  668 ~ 800 | min-width: 668px and max-width: 800px |
 |(class)@Sp-gt| 668 ~ | min-width: 668px |
