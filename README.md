@@ -6,8 +6,8 @@
 
 ---
 
-+ [Directory](#Directory)
-+ [Naming](#Naming)
++ [Directory](#directory)
++ [Naming](#naming)
 + [Base Style Class(bs-)](#base-style-class--basecss--prefix--bs---)
 + [Project Style Class(pj-)](#project-style-class--projectcss-prefix--pj--)
 + [emmet](#emmet)
