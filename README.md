@@ -4,6 +4,14 @@
 </p>
 <p align="center"> BrainEgg HTML Basic Package</p>
 
+---
+
++ [Directory](#Directory)
++ [Naming](#Naming)
++ [Base Style Class(bs-)](#base-style-class--basecss--prefix--bs---)
++ [Project Style Class(pj-)](#project-style-class--projectcss-prefix--pj--)
++ [emmet](#emmet)
+
 ---  
 
 ## Directory
@@ -153,7 +161,7 @@
 |-----|-----------|----|
 |page|pj-page|ページ全体|
 | |pj-page__inner|ページ幅|
-| |pj-page__spencer|pj-page__spencer_( S, M, L ) 縦の間隔|
+| |pj-page__spencer|縦の間隔 pj-page__spencer_( S, M, L ) |
 |area|pj-header|ページヘッダー|
 | |pj-content|ページコンテンツ|
 | |pj-main|メインコンテンツ|
@@ -217,6 +225,7 @@
 					a.pj-[nav]__btn
 						span.pj-[nav]__name
     
+---  
 
 ## emmet
 #### flex 
