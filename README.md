@@ -105,7 +105,7 @@
 | |bs-list--rowgap|bs-list--rowgap_( S, M, L ) 、縦の間隔を調整 |
 | |bs-list--inline|リストを並列表示|
 | |bs-list--custom|リストマークを任意に変更、<br> 使用する場合構成を li > elem{任意} + {text} にする|
-| |bs-list--(opt)|bs-list--( horizon_line, vertical_line, center, right ) 、<br>ボーダーを追加、custom時の中央、右寄せ |
+| |bs-list--(opt)|bs-list--( separator, center, right ) 、<br>ボーダーを追加、custom時の中央、右寄せ |
 |table|bs-table|テーブル要素をリセット|
 | |bs-table--gap|bs-table--gap_( S, M, L )|
 | |bs-table--(theme)|bs-table--( light, dark  )、カラーリング|
@@ -231,7 +231,13 @@
 #### flex 
 	.bs-flex.bs-flex--gap_M.bs-flex--col_3>div*3
 #### media + figure
-	.bs-media>(.bs-media__side>figure.bs-figure>img+figcaption.bs-figure__caption{xxx})+.bs-media__body{xxx}
+	.bs-media.bs-media--gap_M>(.bs-media__side.bs-media__side--left>figure.bs-figure>img+figcaption.bs-figure__caption{xxx})+.bs-media__body{xxx}
+#### table
+	table.bs-table.bs-table--dark.bs-table--lattice.bs-table--zebra. bs-table--gap_M>colgroup>col[style=width:20%]^thead>tr>th{}*2^^tbody>tr>td{}*2
+---
+	table.bs-table.bs-table--light.bs-table--lattice.bs-table--zebra. bs-table--gap_M>colgroup>col[style=width:20%]^thead>tr>th{}*2^^tbody>tr>td{}*2
+#### panel
+	.bs-panel>.bs-panel__header{}+.bs-panel__body{}
 #### section
 	.pj-section>(.pj-section__header>h2.pj-section__title{xxx})+.pj-section__body{xxx}
 #### base layout
