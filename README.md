@@ -120,7 +120,7 @@
 |figure|bs-figure|  画像等(メディア)とキャプション <br> bs-figure > <br>bs-figure__img +  bs-figure__caption |
 |media|bs-media| 画像等(メディア)とテキスト <br> bs-media > <br>bs-media__side +  bs-media__body  |
 | |bs-media--gap| bs-media--gap_( S, M, L ) side と body の間隔を調整|
-| |bs-media--(opt) *| bs-media--( column, reverse ) <br>指定のデバイスで垂直配置、column時に上下反転|
+| |bs-media--(opt) *| bs-media--( middle, column, reverse ) <br>並列中央配置、指定のデバイスで垂直配置、column時に上下反転|
 | |bs-media__side| bs-media__side--( left, right ) 左、右に配置 |
 | |bs-media__body| bs-media__body--( melt ) sideに回り込み |
 |panel|bs-panel| 装飾パネル <br> bs-panel > <br>bs-panel__header + bs-panel__body|
